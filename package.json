@@ -1,0 +1,11 @@
+{
+  "name": "tj_task_app_back",
+  "version": "1.0.0",
+  "description": "backend app for task management app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bowersjuan",
+  "license": "ISC"
+}
