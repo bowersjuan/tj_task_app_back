@@ -7,7 +7,7 @@ INSERT INTO tasks (
 ('Product Team'),
 ('Bagging'),
 ('Helms'),
-('Lunch')
+('Lunch');
 
 INSERT INTO users (
   employee_number, 
@@ -16,8 +16,7 @@ INSERT INTO users (
   first_name, 
   last_name, 
   employment_status, 
-  employee_rank, 
-  clocked_in
+  employee_rank
 ) VALUES (
   1280890, 
   'abc123',
