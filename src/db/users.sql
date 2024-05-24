@@ -6,7 +6,8 @@ CREATE TABLE IF NOT EXISTS users (
   first_name VARCHAR(255) NOT NULL,
   last_name VARCHAR(255) NOT NULL,
   employment_status VARCHAR(255) NOT NULL,
-  role_id INT REFERENCES roles(id),
+  employee_rank VARCHAR(255) NOT NULL,
+  task_id INT REFERENCES tasks(id),
   clocked_in BOOLEAN DEFAULT FALSE,
   created_at TIMESTAMP DEFAULT NOW(),   
   updated_at TIMESTAMP DEFAULT NOW()
